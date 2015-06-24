@@ -42,9 +42,11 @@ public class NumGuessApp {
 		}
 		
 		System.out.printf("Congratulations, you took %s guesses and have a score of %s\n", countGuesses, rating);
-		
+		continueOrNot = NumGuess.getString(newScanner,
+				"Would you like to continue?  (y/n)");
 		}
 
 	}
+
 
 }
