@@ -15,7 +15,7 @@ public class NumGuessApp {
 			do {
 				countGuesses++;
 				tryNum = NumGuess.getIntWithinRange(newScanner,
-						"Enter a prompt between 1 and 100", 1, 100);
+						"Enter a number between 1 and 100", 1, 100);
 				if (tryNum > (randomNum + 10)) {
 					System.out.println("Way too high");
 				} else if (tryNum < (randomNum - 10)) {
